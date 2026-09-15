@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Página Pessoal</title>
+        <title>Portfólio Gustavo Alessandro</title>
 
         <!-- Bootstrap 5 (CSS) -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg border-bottom bg-body sticky-top">
             <div class="container">
                 <a class="navbar-brand fw-semibold" href="#top">
-                    <i class="fa-solid fa-code me-2"></i>Meu Portfólio
+                    <i class="fa-solid fa-code me-2"></i>Gustavo Alessandro
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
                     <span class="navbar-toggler-icon"></span>
@@ -28,13 +28,15 @@
                     <ul class="navbar-nav ms-auto gap-lg-1">
                         <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experiencia">Experiência</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#certificacoes">Certificações</a></li>
                         <li class="nav-item"><a class="nav-link" href="#interesses">Interesses</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                     </ul>
                     <div class="ms-lg-3 d-flex align-items-center gap-2 py-2 py-lg-0">
                         <span class="small text-secondary d-none d-lg-inline">Tema</span>
-                        <button id="themeToggle" class="btn btn-outline-secondary btn-sm" type="button">
+                        <button id="themeToggle" class="btn btn-outline-secondary btn-sm" type="button" aria-label="Alternar tema">
                             <i class="fa-solid fa-moon"></i>
                         </button>
                     </div>
@@ -47,18 +49,18 @@
             <div class="container">
                 <div class="row align-items-center g-4">
                     <div class="col-12 col-lg-4 text-center">
-                        <img class="profile-img shadow-sm" src="assets/img/foto.svg" alt="Foto de perfil">
-                        <div class="mt-3">
-                            <span class="badge text-bg-primary me-1">Sistemas de Informação</span>
-                            <span class="badge text-bg-secondary">UFLA</span>
+                        <img class="profile-img shadow-sm" src="assets/img/foto.svg" alt="Foto de Gustavo Alessandro">
+                        <div class="mt-2">
+                            <span class="badge text-bg-primary me-1">Ciência da Computação - UFLA</span>
+                            <span class="badge text-bg-success">ADS - UNILAVRAS</span>
                         </div>
                     </div>
                     <div class="col-12 col-lg-8">
                         <h1 class="display-6 fw-semibold mb-3">
-                            Olá! Eu sou <span class="text-primary">Nome do Estudante</span>
+                            Olá! Eu sou o <span class="text-primary">Gustavo Alessandro</span>
                         </h1>
                         <p class="lead text-secondary mb-4">
-                            Estudante do curso de Sistemas de Informação, interessado em desenvolvimento web e em aprender mais sobre tecnologias e computação.
+                            Desenvolvedor Full Stack & Mobile | Graduado em ADS e Cursando o 6º período em Ciência da Computação (UFLA). Focado em construir aplicações web e mobile modernas e eficientes.
                         </p>
                         <div class="d-flex flex-wrap gap-2">
                             <a class="btn btn-primary" href="#projetos">
@@ -67,10 +69,10 @@
                             <a class="btn btn-outline-primary" href="#contato">
                                 <i class="fa-solid fa-envelope me-2"></i>Contato
                             </a>
-                            <a class="btn btn-outline-secondary" href="https://github.com/" target="_blank">
+                            <a class="btn btn-outline-secondary" href="https://github.com/GUSTAVO-ALESSANDRO" target="_blank" rel="noreferrer">
                                 <i class="fa-brands fa-github me-2"></i>GitHub
                             </a>
-                            <a class="btn btn-outline-secondary" href="https://www.linkedin.com/" target="_blank">
+                            <a class="btn btn-outline-secondary" href="https://www.linkedin.com/in/gustavo-alessandro-de-souza-sabino-3167a1341" target="_blank" rel="noreferrer">
                                 <i class="fa-brands fa-linkedin me-2"></i>LinkedIn
                             </a>
                         </div>
@@ -80,10 +82,11 @@
                                 <div class="p-3 rounded-3 border bg-body-tertiary">
                                     <div class="d-flex align-items-center gap-2 mb-2">
                                         <i class="fa-solid fa-graduation-cap text-primary"></i>
-                                        <strong>Curso</strong>
+                                        <strong>Formação Academicas</strong>
                                     </div>
-                                    <p class="mb-0 text-secondary">
-                                        Bacharelado em Sistemas de Informação - Universidade Federal de Lavras (UFLA).
+                                    <p class="mb-0 text-secondary small">
+                                        • <strong>Ciência da Computação</strong> - UFLA (6º período)<br>
+                                        • <strong>ADS</strong> - UNILAVRAS (Concluído com Mérito Acadêmico)
                                     </p>
                                 </div>
                             </div>
@@ -93,8 +96,8 @@
                                         <i class="fa-solid fa-bullseye text-primary"></i>
                                         <strong>Objetivo</strong>
                                     </div>
-                                    <p class="mb-0 text-secondary">
-                                        Aprimorar habilidades em web (front-end e back-end) e participar de projetos práticos no semestre.
+                                    <p class="mb-0 text-secondary small">
+                                        Atuar em Desenvolvimento de Software, aplicando conhecimentos e contribuindo em projetos com equipe colaborativa.
                                     </p>
                                 </div>
                             </div>
@@ -110,37 +113,44 @@
                 <div class="container">
                     <div class="mb-3">
                         <h2 class="h4 mb-1">Sobre</h2>
-                        <p class="text-secondary mb-0">Uma breve descrição do estudante e trajetória.</p>
+                        <p class="text-secondary mb-0">Uma breve apresentação da minha trajetória acadêmica e profissional.</p>
                     </div>
                     <div class="row g-4">
                         <div class="col-12 col-lg-7">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm h-100">
                                 <div class="card-body">
                                     <p class="mb-2">
-                                        Sou estudante de Sistemas de Informação e gosto de construir aplicações web e aprender criando projetos.
+                                        Tenho 21 anos, sou natural de Lavras-MG, e sempre tive interesse por tecnologia, com isso iniciei os estudos na área ao conquistar bolsas para duas graduações no primeiro semestre de 2024.
+                                    </p>
+                                    <p class="mb-2">
+                                        Concluí a graduação em <strong>Análise e Desenvolvimento de Sistemas (UNILAVRAS)</strong> recebendo o prêmio de <strong>Mérito Acadêmico</strong> (Média Geral 90.33). Atualmente estou no 6º período de <strong>Ciência da Computação na UFLA</strong>.
                                     </p>
                                     <p class="mb-0 text-secondary">
-                                        Nesta página, apresento minhas habilidades, interesses e projetos desenvolvidos.
+                                        E de experiência, participei do desenvolvimento do sistema <strong>VetDex</strong>, que é uma aplicação Web & Mobile para a área de Veterinária do Vetdex, atuando no ecossistema Node.js, Fastify, React, React Native, Docker e PostegreSQL. Me considero uma pessoa esforçada, dedicada, calma, responsável e colaborativa.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm h-100">
                                 <div class="card-body">
                                     <h3 class="h6 mb-3">Informações rápidas</h3>
                                     <ul class="list-unstyled mb-0">
                                         <li class="d-flex gap-2 mb-2">
                                             <i class="fa-solid fa-location-dot text-primary mt-1"></i>
-                                            <div><strong>Cidade:</strong> Lavras/MG</div>
+                                            <div><strong>Localização:</strong> Lavras / MG</div>
                                         </li>
                                         <li class="d-flex gap-2 align-items-start mb-2">
                                             <i class="fa-solid fa-language mt-1 text-primary"></i>
-                                            <div><strong>Idiomas:</strong> Português, Inglês (intermediário)</div>
+                                            <div><strong>Idiomas:</strong> Português (Nativo), Inglês (Básico)</div>
+                                        </li>
+                                        <li class="d-flex gap-2 mb-2">
+                                            <i class="fa-solid fa-laptop-code text-primary mt-1"></i>
+                                            <div><strong>Foco:</strong> Full Stack & Mobile (Node.js, React, React Native)</div>
                                         </li>
                                         <li class="d-flex gap-2">
-                                            <i class="fa-solid fa-laptop-code text-primary mt-1"></i>
-                                            <div><strong>Área:</strong> Desenvolvimento Web</div>
+                                            <i class="fa-solid fa-award text-primary mt-1"></i>
+                                            <div><strong>Destaque:</strong> Prêmio Mérito Acadêmico UNILAVRAS</div>
                                         </li>
                                     </ul>
                                 </div>
@@ -149,12 +159,13 @@
                     </div>
                 </div>
             </section>
+
             <!-- Habilidades -->
             <section id="habilidades" class="py-4">
                 <div class="container">
                     <div class="section-title">
                         <h2 class="h4 mb-1">Habilidades</h2>
-                        <p class="text-secondary mb-0">Tecnologias e competências.</p>
+                        <p class="text-secondary mb-0">Tecnologias, ferramentas e competências.</p>
                     </div>
                     <div class="row g-4 mt-1">
                         <div class="col-12 col-lg-6">
@@ -162,21 +173,28 @@
                                 <div class="card-body">
                                     <h3 class="h6">Tecnologias</h3>
                                     <div class="d-flex flex-wrap gap-2">
-                                        <span class="badge rounded-pill text-bg-primary">HTML</span>
-                                        <span class="badge rounded-pill text-bg-primary">CSS</span>
                                         <span class="badge rounded-pill text-bg-primary">JavaScript</span>
-                                        <span class="badge rounded-pill text-bg-secondary">Bootstrap</span>
-                                        <span class="badge rounded-pill text-bg-secondary">Git/GitHub</span>
+                                        <span class="badge rounded-pill text-bg-primary">Node.js</span>
+                                        <span class="badge rounded-pill text-bg-primary">React</span>
+                                        <span class="badge rounded-pill text-bg-primary">React Native</span>
+                                        <span class="badge rounded-pill text-bg-primary">Fastify</span>
+                                        <span class="badge rounded-pill text-bg-primary">Express</span>
+                                        <span class="badge rounded-pill text-bg-secondary">PostgreSQL</span>
+                                        <span class="badge rounded-pill text-bg-secondary">MySQL</span>
+                                        <span class="badge rounded-pill text-bg-secondary">Docker</span>
                                         <span class="badge rounded-pill text-bg-secondary">Python</span>
-                                        <span class="badge rounded-pill text-bg-secondary">Django</span>
+                                        <span class="badge rounded-pill text-bg-secondary">Java</span>
+                                        <span class="badge rounded-pill text-bg-secondary">Git/GitHub</span>
                                     </div>
                                     <hr>
                                     <h3 class="h6">Competências</h3>
                                     <ul class="mb-0">
-                                        <li>Construção de páginas responsivas</li>
-                                        <li>Manipulação do DOM e eventos</li>
-                                        <li>Organização de projetos e versionamento</li>
-                                        <li>Boas práticas de legibilidade de código</li>
+                                        <li>Desenvolvimento Back-End com Node.js e Express</li>
+                                        <li>Arquitetura API REST & Padrão MVC</li>
+                                        <li>Isolamento de ambiente e containers com Docker</li>
+                                        <li>Desenvolvimento Front-End com React</li>
+                                        <li>Versionamento e fluxo de trabalho em equipe via Git/GitHub</li>
+                                        <li>Desenvolvimento Mobile com React Native e Expo</li>
                                     </ul>
                                 </div>
                             </div>
@@ -184,29 +202,41 @@
                         <div class="col-12 col-lg-6">
                             <div class="card shadow-sm h-100">
                                 <div class="card-body">
-                                    <h3 class="h6">Nível de familiaridade (exemplo)</h3>
+                                    <h3 class="h6 mb-3">Nível de Dominío Técnicos</h3>
+                                    
                                     <div class="mb-3">
                                         <div class="d-flex justify-content-between">
-                                            <span>HTML</span><span class="text-secondary small">Intermediário</span>
+                                            <span>Node.js / Express </span><span class="text-secondary small">Intermediário</span>
                                         </div>
-                                        <div class="progress" role="progressbar" aria-label="HTML" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress" role="progressbar" aria-label="Backend Node" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                                             <div class="progress-bar" style="width: 70%"></div>
                                         </div>
                                     </div>
+
                                     <div class="mb-3">
                                         <div class="d-flex justify-content-between">
-                                            <span>CSS</span><span class="text-secondary small">Básico-Intermediário</span>
+                                            <span>React / React Native / Expo</span><span class="text-secondary small">Intermediário</span>
                                         </div>
-                                        <div class="progress" role="progressbar" aria-label="CSS" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 55%"></div>
+                                        <div class="progress" role="progressbar" aria-label="React e Mobile" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 63%"></div>
                                         </div>
                                     </div>
+
+                                    <div class="mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>Bancos de Dados (PostgreSQL / MySQL)</span><span class="text-secondary small">Intermediário</span>
+                                        </div>
+                                        <div class="progress" role="progressbar" aria-label="Bancos de Dados" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 65%"></div>
+                                        </div>
+                                    </div>
+
                                     <div class="mb-0">
                                         <div class="d-flex justify-content-between">
-                                            <span>JavaScript</span><span class="text-secondary small">Intermediário</span>
+                                            <span>Python / Java</span><span class="text-secondary small">Básico</span>
                                         </div>
-                                        <div class="progress" role="progressbar" aria-label="JavaScript" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 65%"></div>
+                                        <div class="progress" role="progressbar" aria-label="Python e Java" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 60%"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -215,91 +245,129 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Experiência Profissional -->
+            <section id="experiencia" class="py-4">
+                <div class="container">
+                    <div class="section-title">
+                        <h2 class="h4 mb-1">Experiência Profissional</h2>
+                        <p class="text-secondary mb-0">Atuação em projetos reais e práticos.</p>
+                    </div>
+                    <div class="row g-4 mt-1">
+                        <div class="col-12">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-2">
+                                        <h3 class="h5 mb-0 text-primary">Desenvolvedor Full Stack & Mobile - Projeto VetDex</h3>
+                                        <span class="badge text-bg-outline border text-secondary">Fevereiro 2025 - Dezembro 2025</span>
+                                    </div>
+                                    <p class="fw-medium text-secondary mb-2">UNILAVRAS (em colaboração institucional)</p>
+                                    <p class="small text-secondary mb-3">
+                                        Desenvolvimento de aplicação Web e Mobile para cadastro e visualização de doenças animais para atendimento ao curso de Veterinária do UNILAVRAS.
+                                    </p>
+                                    <ul class="small mb-3">
+                                        <li>Construção do <strong>Back-End RESTful</strong> com Node.js, Fastify e banco de dados PostgreSQL.</li>
+                                        <li>Criação das interfaces <strong>Mobile</strong> (React Native + Expo) e suporte na versão <strong>Web</strong> (React + Vite + Axios).</li>
+                                        <li>Orquestração e ambiente isolado por containers com <strong>Docker</strong>.</li>
+                                        <li>Controle de versão, commits estruturados via <strong>Git/GitHub</strong> e reuniões semanais de acompanhamento de metas.</li>
+                                    </ul>
+                                    <div class="d-flex flex-wrap gap-1">
+                                        <span class="badge text-bg-light border">Node.js</span>
+                                        <span class="badge text-bg-light border">Fastify</span>
+                                        <span class="badge text-bg-light border">React Native</span>
+                                        <span class="badge text-bg-light border">React</span>
+                                        <span class="badge text-bg-light border">PostgreSQL</span>
+                                        <span class="badge text-bg-light border">Docker</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Projetos -->
             <section id="projetos" class="py-4">
                 <div class="container">
                     <div class="section-title">
                         <h2 class="h4 mb-1">Projetos</h2>
-                        <p class="text-secondary mb-0">Alguns trabalhos já desenvolvidos.</p>
+                        <p class="text-secondary mb-0">Trabalhos acadêmicos e repositórios em destaque.</p>
                     </div>
                     <div class="row g-4 mt-1">
+                        <!-- Projeto VetDex -->
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card shadow-sm h-100">
                                 <div class="card-body d-flex flex-column">
-                                    <div class="d-flex align-items-start justify-content-between gap-2">
-                                        <h3 class="h6 mb-1">Jogo da Velha</h3>
-                                        <span class="badge text-bg-secondary">HTML</span>
-                                        <span class="badge text-bg-secondary">CSS</span>
-                                        <span class="badge text-bg-secondary">JavaScript</span>
+                                    <div class="d-flex align-items-start justify-content-between gap-2 mb-2">
+                                        <h3 class="h6 mb-1">Projeto VetDex</h3>
+                                        <span class="badge text-bg-primary">Full Stack & Mobile</span>
                                     </div>
                                     <p class="text-secondary small">
-                                        Implementação do jogo com verificação de vitória e reinício.
+                                        Plataforma Web e Mobile para consulta e cadastro de enfermidades veterinárias.
                                     </p>
                                     <ul class="small mb-4">
-                                        <li>Matriz</li>
-                                        <li>Manipulação do DOM</li>
-                                        <li>Animação de personagens</li>
+                                        <li>API RESTE em Node.js (Fastify)</li>
+                                        <li>Mobile React Native + Expo & Axios</li>
+                                        <li>React + Vite & Axios</li>
+                                        <li>Containers com Docker</li>
+                                        <li>PostegreSQL</li>
                                     </ul>
                                     <div class="mt-auto d-flex gap-2">
-                                        <a class="btn btn-sm btn-outline-primary" href="#" target="_blank" rel="noreferrer">
-                                            <i class="fa-brands fa-github me-1"></i>Repositório
-                                        </a>
-                                        <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
-                                            <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Demo
+                                        <a class="btn btn-sm btn-outline-primary w-100" href="https://github.com/Vetdex" target="_blank" rel="noreferrer">
+                                            <i class="fa-brands fa-github me-1"></i>Organização
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Projeto Image-Viewer -->
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card shadow-sm h-100">
                                 <div class="card-body d-flex flex-column">
-                                    <div class="d-flex align-items-start justify-content-between gap-2">
-                                        <h3 class="h6 mb-1">Página Pessoal</h3>
-                                        <span class="badge text-bg-secondary">HTML</span>
-                                        <span class="badge text-bg-secondary">Bootstrap</span>
-                                        <span class="badge text-bg-secondary">FontAwnsome</span>
+                                    <div class="d-flex align-items-start justify-content-between gap-2 mb-2">
+                                        <h3 class="h6 mb-1">Image Viewer</h3>
+                                        <span class="badge text-bg-primary">Mobile & Web</span>
                                     </div>
                                     <p class="text-secondary small">
-                                        Implementação de página pessoal com seções e navegação.
+                                        Aplicação com React Native, Expo e OpenSeadragon para renderização e zoom de alta performance em imagens de alta resolução (.svs / .dzi).
                                     </p>
                                     <ul class="small mb-4">
-                                        <li>Classes do Bootstrap</li>
-                                        <li>Grid do Bootstrap</li>
-                                        <li>Componentes (cards, navbar)</li>
+                                        <li>Mobile com React Native & Expo</li>
+                                        <li>Backend Fastify & Python (Flask)</li>
+                                        <li>Renderização via OpenSeadragon</li>
                                     </ul>
                                     <div class="mt-auto d-flex gap-2">
-                                        <a class="btn btn-sm btn-outline-primary" href="#" target="_blank" rel="noreferrer">
+                                        <a class="btn btn-sm btn-outline-primary w-100" href="https://github.com/GUSTAVO-ALESSANDRO/Image-Viewer" target="_blank" rel="noreferrer">
                                             <i class="fa-brands fa-github me-1"></i>Repositório
-                                        </a>
-                                        <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
-                                            <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Demo
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Projeto Street Fighter JS -->
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card shadow-sm h-100">
                                 <div class="card-body d-flex flex-column">
-                                    <div class="d-flex align-items-start justify-content-between gap-2">
-                                        <h3 class="h6 mb-1">Calculadora Web</h3>
-                                        <span class="badge text-bg-secondary">Front-end</span>
+                                    <div class="d-flex align-items-start justify-content-between gap-2 mb-2">
+                                        <h3 class="h6 mb-1">Street Fighter JS</h3>
+                                        <span class="badge text-bg-primary">Front-End / Game</span>
                                     </div>
                                     <p class="text-secondary small">
-                                        Calculadora com operações básicas e interface responsiva.
+                                        Jogo de luta 2D desenvolvido com tecnologias web puras. Possui modos PvP e PvC (IA), mecânicas de ataque, defesa e barras de especial.
                                     </p>
                                     <ul class="small mb-4">
-                                        <li>HTML + CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>Eventos e DOM</li>
+                                        <li>HTML5, CSS3 e JavaScript Puro</li>
+                                        <li>Detecção de Colisão e Física 2D</li>
+                                        <li>Deploy via GitHub Pages</li>
                                     </ul>
                                     <div class="mt-auto d-flex gap-2">
-                                        <a class="btn btn-sm btn-outline-primary" href="#" target="_blank" rel="noreferrer">
-                                            <i class="fa-brands fa-github me-1"></i>Repositório
+                                        <a class="btn btn-sm btn-outline-primary w-100" href="https://gustavo-alessandro.github.io/street-fighter-js/" target="_blank" rel="noreferrer">
+                                            <i class="fa-solid fa-gamepad me-1"></i>Jogar
                                         </a>
-                                        <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
-                                            <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Demo
+                                        <a class="btn btn-sm btn-outline-secondary w-100" href="https://github.com/GUSTAVO-ALESSANDRO/street-fighter-js" target="_blank" rel="noreferrer">
+                                            <i class="fa-brands fa-github me-1"></i>Código
                                         </a>
                                     </div>
                                 </div>
@@ -308,23 +376,91 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Certificações -->
+            <section id="certificacoes" class="py-4">
+                <div class="container">
+                    <div class="section-title">
+                        <h2 class="h4 mb-1">Certificações</h2>
+                        <p class="text-secondary mb-0">Cursos de extensão e certificações intermediárias da graduação.</p>
+                    </div>
+                    <div class="row g-4 mt-1">
+                        <div class="col-12 col-lg-6">
+                            <div class="card shadow-sm h-100">
+                                <div class="card-body">
+                                    <h3 class="h6 mb-3 text-primary"><i class="fa-solid fa-certificate me-2"></i>Cursos Extracurriculares</h3>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-3">
+                                            <strong>N8N: Do Básico à Inteligência Artificial (33h)</strong>
+                                            <div class="small text-secondary">Cursa • Jul/Ago 2026</div>
+                                            <p class="small text-muted mb-0">Principais funcionalidades, fluxos de automação e execuções da ferramenta.</p>
+                                        </li>
+                                        <li class="mb-3">
+                                            <strong>Programador Web (200h)</strong>
+                                            <div class="small text-secondary">Instituto Federal do Rio Grande do Sul (IFRS) • Fev/Jul 2025</div>
+                                            <p class="small text-muted mb-0">HTML, CSS, Lógica de Programação, JavaScript, Banco de Dados e Projetos Web.</p>
+                                        </li>
+                                        <li>
+                                            <strong>Introdução às Redes Neurais e Deep Learning</strong>
+                                            <div class="small text-secondary">DCC/ICET - UFLA • Outubro 2024</div>
+                                            <p class="small text-muted mb-0">Curso presencial ministrado pelo Prof. Dr. Denilson Alves Pereira.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <div class="card shadow-sm h-100">
+                                <div class="card-body">
+                                    <h3 class="h6 mb-3 text-primary"><i class="fa-solid fa-graduation-cap me-2"></i>Certificações Intermediárias - UNILAVRAS</h3>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <strong>Desenvolvimento de Software Low-Code (240h)</strong>
+                                            <div class="small text-secondary">1º Semestre / 2024</div>
+                                            <p class="small text-muted mb-0">Power Automate, Bubble.io, WordPress e Power Apps.</p>
+                                        </li>
+                                        <li class="mb-3">
+                                            <strong>Desenvolvimento Front-End (220h)</strong>
+                                            <div class="small text-secondary">2º Semestre / 2024</div>
+                                            <p class="small text-muted mb-0">HTML, CSS, JavaScript, React.js e Axios.</p>
+                                        </li>
+                                        <li class="mb-3">
+                                            <strong>Desenvolvimento de Software Back-End (240h)</strong>
+                                            <div class="small text-secondary">1º Semestre / 2025</div>
+                                            <p class="small text-muted mb-0">Python, Java, JavaScript, Node.js, Express e Jest.</p>
+                                        </li>
+                                        <li class="mb-3">
+                                            <strong>Desenvolvimento Mobile (160h)</strong>
+                                            <div class="small text-secondary">2º Semestre / 2025</div>
+                                            <p class="small text-muted mb-0">Foco em arquitetura e desenvolvimento de aplicações móveis em Flutter.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Interesses -->
             <section id="interesses" class="py-4">
                 <div class="container">
                     <div class="section-title">
                         <h2 class="h4 mb-1">Interesses</h2>
-                        <p class="text-secondary mb-0">Áreas que eu gosto de estudar/pesquisar.</p>
+                        <p class="text-secondary mb-0">Áreas de estudo, pesquisa e preferências pessoais.</p>
                     </div>
                     <div class="row g-4 mt-1">
                         <div class="col-12 col-lg-6">
                             <div class="card shadow-sm h-100">
                                 <div class="card-body">
+                                    <h3 class="h6">Áreas de Interesse Técnico</h3>
                                     <ul class="mb-0">
-                                    <li>Desenvolvimento Web (Front-end e Back-end)</li>
-                                    <li>Banco de Dados e modelagem</li>
-                                    <li>Algoritmos e estruturas de dados</li>
-                                    <li>Engenharia de Software</li>
-                                    <li>Dados e visualização</li>
+                                        <li>Desenvolvimento Web Full Stack & Mobile</li>
+                                        <li>Inteligência Artificial e Deep Learning</li>
+                                        <li>Ciência de Dados e Análise de Estatísticas</li>
+                                        <li>Engenharia de Software</li>
+                                        <li>Automações e Integrações com N8N</li>
                                     </ul>
                                 </div>
                             </div>
@@ -332,14 +468,13 @@
                         <div class="col-12 col-lg-6">
                             <div class="card shadow-sm h-100">
                                 <div class="card-body">
-                                    <h3 class="h6">Atividades</h3>
+                                    <h3 class="h6">Atividades & Pessoal</h3>
                                     <p class="text-secondary mb-2">
-                                        Participo de projetos acadêmicos e gosto de aprender criando coisas.
+                                        Além do foco em computação e estudos constantes, gosto de me manter ativo e engajado em comunidade.
                                     </p>
                                     <div class="d-flex flex-wrap gap-2">
-                                        <span class="badge text-bg-light border"><i class="fa-solid fa-book me-1"></i>Estudos</span>
-                                        <span class="badge text-bg-light border"><i class="fa-solid fa-people-group me-1"></i>Trabalho em equipe</span>
-                                        <span class="badge text-bg-light border"><i class="fa-solid fa-terminal me-1"></i>Projetos práticos</span>
+                                        <span class="badge text-bg-light border"><i class="fa-solid fa-futbol me-1"></i>Futebol</span>
+                                        <span class="badge text-bg-light border"><i class="fa-solid fa-people-group me-1"></i>Trabalho em Equipe</span>
                                     </div>
                                 </div>
                             </div>
@@ -347,32 +482,31 @@
                     </div>
                 </div>
             </section>
+
             <!-- Contato -->
             <section id="contato" class="py-4">
                 <div class="container">
                     <div class="section-title">
                         <h2 class="h4 mb-1">Contato</h2>
-                        <p class="text-secondary mb-0">Como falar comigo.</p>
+                        <p class="text-secondary mb-0">Canais de comunicação direta.</p>
                     </div>
                     <div class="row g-4 mt-1">
                         <div class="col-12 col-lg-6">
                             <div class="card shadow-sm">
                                 <div class="card-body">
                                     <ul class="list-unstyled mb-0">
-                                        <li class="d-flex gap-2 align-items-center mb-2">
-                                            <i class="fa-solid fa-envelope text-primary"></i>
-                                            <span>email@exemplo.com</span>
+                                        <li class="d-flex gap-2 align-items-center mb-3">
+                                            <i class="fa-solid fa-envelope text-primary fa-lg"></i>
+                                            <a class="text-decoration-none text-body" href="mailto:gualessandro2017@gmail.com">gualessandro2017@gmail.com</a>
                                         </li>
-                                        <li class="d-flex gap-2 align-items-center mb-2">
-                                            <i class="fa-brands fa-github text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://github.com/" target="_blank" rel="noreferrer">
-                                                github.com/seu-usuario
-                                            </a>
+                                        <li class="d-flex gap-2 align-items-center mb-3">
+                                            <i class="fa-solid fa-phone text-primary fa-lg"></i>
+                                            <a class="text-decoration-none text-body" href="tel:+5535988284714">(35) 98828-4714</a>
                                         </li>
                                         <li class="d-flex gap-2 align-items-center">
-                                            <i class="fa-brands fa-linkedin text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                                linkedin.com/in/seu-usuario
+                                            <i class="fa-brands fa-github text-primary fa-lg"></i>
+                                            <a class="text-decoration-none text-body" href="https://github.com/GUSTAVO-ALESSANDRO" target="_blank" rel="noreferrer">
+                                                github.com/GUSTAVO-ALESSANDRO
                                             </a>
                                         </li>
                                     </ul>
@@ -383,22 +517,16 @@
                             <div class="card shadow-sm">
                                 <div class="card-body">
                                     <ul class="list-unstyled mb-0">
-                                        <li class="d-flex gap-2 align-items-center mb-2">
-                                            <i class="fa-brands fa-instagram text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://instagram.com/" target="_blank" rel="noreferrer">
-                                                instagram.com/seu-usuario
-                                            </a>
-                                        </li>
-                                        <li class="d-flex gap-2 align-items-center mb-2">
-                                            <i class="fa-brands fa-facebook text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://facebook.com/" target="_blank" rel="noreferrer">
-                                                facebook.com/seu-usuario
+                                        <li class="d-flex gap-2 align-items-center mb-3">
+                                            <i class="fa-brands fa-linkedin text-primary fa-lg"></i>
+                                            <a class="text-decoration-none text-body" href="https://www.linkedin.com/in/gustavo-alessandro-de-souza-sabino-3167a1341" target="_blank" rel="noreferrer">
+                                                linkedin.com/in/gustavo-alessandro
                                             </a>
                                         </li>
                                         <li class="d-flex gap-2 align-items-center">
-                                            <i class="fa-brands fa-youtube text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://www.youtube.com/" target="_blank" rel="noreferrer">
-                                                youtube.com/seu-usuario
+                                            <i class="fa-brands fa-instagram text-primary fa-lg"></i>
+                                            <a class="text-decoration-none text-body" href="https://www.instagram.com/gustavo.alessandro07/" target="_blank" rel="noreferrer">
+                                                @gustavo.alessandro07
                                             </a>
                                         </li>
                                     </ul>
@@ -412,13 +540,13 @@
 
         <!-- Rodapé da Página -->
         <footer class="border-top py-4">
-            <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
-                <small class="text-secondary">© <span id="year"></span> Página Pessoal — Nome do Estudante</small>
-                <small class="text-secondary">Feito com HTML + Bootstrap + um pouco de CSS/JS</small>
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+                <small class="text-secondary">© <span id="year"></span> Portfólio - Gustavo Alessandro de Souza Sabino</small>
+                <small class="text-secondary">Construído com HTML, Bootstrap 5 e JS</small>
             </div>
         </footer>
 
-        <!-- Bootstrap JS (necessário para navbar colapsável) -->
+        <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
         <!-- JS do projeto -->
