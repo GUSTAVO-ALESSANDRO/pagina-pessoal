@@ -51,3 +51,8 @@ html {
     margin: 0;
     padding: 0;
 }
+
+/* Garante texto branco na navbar apenas quando o tema escuro estiver ativo */
+[data-theme="dark"] .navbar-brand .navbar-item {
+    color: #ffffff !important;
+}
