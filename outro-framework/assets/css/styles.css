@@ -1,0 +1,53 @@
+/* Ajuste de margem de rolagem para a navbar fixa não cobrir o título */
+section {
+    scroll-margin-top: 90px;
+}
+
+/* Imagem de perfil */
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 9999px;
+    border: 4px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Ativa a rolagem suave para todos os links âncora (#) */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilização explícita das bordas dos Cards e Boxes para o Bulma */
+.card, .box {
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.custom-info-box {
+    background-color: var(--bulma-scheme-main-ter);
+    padding: 1.25rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.border-top {
+    border-top: 1px solid #dbdbdb;
+}
+
+.border {
+    border: 1px solid #dbdbdb;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.is-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
